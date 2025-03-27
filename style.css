@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav, h1, main, footer, header, h2, .divi{
+    text-align: center;
+}
+nav {
+    margin-top: 20px;
+    border: solid 1px black;
+    background-color: #8fdee6;
+    border-radius: 5px;   
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 6px;
+    margin-right: 6px;  
+}
+a:hover {
+    color: black;
+    background-color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+body {
+    width: 70%;
+    margin: auto;
+    background-color: #8fdee6;
+}
+p {
+    font-size: 20px;  
+}
+hr{
+    background-color: black;
+    height:  1px;
+}
+.image {
+    width: 400px;
+    height: 400px;  
+}
+.image2  {
+    width: 400px;
+    height: 350px;
+    text-align: center;
+}
+.image3 {
+    width: 450px;
+    height: 400px;
+    text-align: center;
+}
+.image5{
+    height: 500px;
+}
+.btt {
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    background-color: #8fdee6;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.btt:hover {
+    background-color: white;
+    color: black;
+}
+header{
+    width: auto;
+}
+
+
+textarea{
+    margin-left: 100px; 
+    resize: none;
+}
+footer {
+    padding: 10px;
+    background-color: #8fdee6;
+}
